@@ -1,0 +1,78 @@
+/* good practices */
+* {margin: 0; padding: 0px}
+
+/* Body */
+body{
+    background-color: #71B095;
+}
+/* Login/Register */
+.background-image {
+    padding: 100px;
+    background: url('../imgs/Logo.jpg') center/contain no-repeat; /* Posicionamiento de fondo */
+}
+/* Login */
+.login{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.logoUser{
+    width: 311px;
+    height: 284px;
+}
+/* Lines */
+.contLog{
+    border: 3px solid black;
+    margin: 1px 20px;
+}
+/* Toda laventana */
+.full-height {
+    height: 100vh;
+}
+
+/* button colors */
+.colorBtn{
+    background-color: #04537D;
+}
+/* button config */
+.confBtn{
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid #000000; /* Borde */
+}	
+/* logo in header */
+.logos{
+    width: 110px;
+    height: 118px;
+}
+/* space of Body -> After login */
+.contBody{
+    width: 100%;
+    height: 453px;
+}
+.contBody2{
+    margin: 65px;
+}
+/* Color menu and inputs */
+.colorMI{
+    background-color: #DED0C6;
+}
+
+/* Inputs config */
+.inputConf{
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.inputConf2{
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.inputConf2 input {
+    flex-grow: 1;
+  }
